@@ -26,6 +26,22 @@ Reducing merits in base stats (tested with **STR**) was also observed to reduce 
 
 Monster HP = ⌊ (**Innate HP** + **Trait HP** + **Merit HP**) * **MON HP%** * (Sum of **Instinct HP% Boosts**) ⌋
 
+### MON Species HP% Boosts
+
+[See here](/md/hp.MD#species-hp-boost) for supporting image evidence.
+
+**MON having species-dependant HP% Boosts**  \
+After noticing merits affeting monster stats, removed 2 merits from HP and MP.  \
+*(Changing a stat by **20** covers increments of **5%**, and will hopefully catch the most likely multipliers i.e. **5%**, **10%**, **20%**, **25%**, **30%** etc.)* \
+In every case, there was **significantly** more than a **20HP** difference, but was not consistent across all species.
+
+| Merits     | Gnole   | Coeurl  | Lynx    | Collared Lynx | Smilodon |
+|:----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|  13HP      |**15517**|**14865**|**14340**|**12739**|**11661**|
+|  15HP      |**15573**|**14913**|**14388**|**12785**|**11709**|
+| Difference |  **56** |  **48** |  **48** |  **46** |  **48** |
+| HP% Boost  |**+180%**|**+140%**|**+140%**|**+130%**|**+140%**|
+
 ### Instinct HP% Boosts
 **Instinct HP%** are exact percentages as written (not **x/1024** like Gear Haste is, etc.)  \
 **Instinct HP%** is applied after all flat bonuses are summed up.

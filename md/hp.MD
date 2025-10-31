@@ -1,5 +1,34 @@
 # HP Boosts
 
+## Species HP% Boost
+
+###### Gnole
+<img src="../img/stats_gnole_13hpmp.png" title="Gnole with 13 HP and MP Merit levels">
+<img src="../img/stats_gnole_base.png" title="Gnole with full merit levels">
+
+###### Coeurl
+<img src="../img/stats_coeurl_13hpmp.png" title="Coeurl with 13 HP and MP Merit levels">
+<img src="../img/stats_coeurl_base.png" title="Coeurl with full merit levels">
+
+###### Lynx
+<img src="../img/stats_lynx_13hpmp.png" title="Lynx with 13 HP and MP Merit levels">
+<img src="../img/stats_lynx_base.png" title="Lynx with full merit levels">
+
+###### Collared Lynx
+<img src="../img/stats_collaredlynx_13hpmp.png" title="Collared Lynx with 13 HP and MP Merit levels">
+<img src="../img/stats_collaredlynx_base.png" title="Collared Lynx with full merit levels">
+
+###### Smilodon
+<img src="../img/stats_smilodon_13hpmp.png" title="Smilodon with 13 HP and MP Merit levels">
+<img src="../img/stats_smilodon_base.png" title="Smilodon with full merit levels">
+
+| Merits     | Gnole   | Coeurl  | Lynx    | Collared Lynx | Smilodon |
+|:----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+|  13HP      |**15517**|**14865**|**14340**|**12739**|**11661**|
+|  15HP      |**15573**|**14913**|**14388**|**12785**|**11709**|
+| Difference |  **56** |  **48** |  **48** |  **46** |  **48** |
+| HP% Boost  |**+180%**|**+140%**|**+140%**|**+130%**|**+140%**|
+
 ## Instincts
 
 ### HP% Boosts being exact percentages
