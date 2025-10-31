@@ -1,5 +1,25 @@
 # Current Hypotheses
 
+## Merits
+
+Merits affect stats when the player is participating in **Monstrosity**, as they do when the player has other jobs equipped.
+
+#### Reasoning
+
+[See here](/md/merits.MD#merits-affecting-monsters) for supporting image evidence.
+
+Monsters are assumed to have internal "jobs", and some are a combination of jobs with no native MP.  \
+&nbsp;&nbsp;e.g. **WAR**/**WAR** or **MNK**/**MNK**  \
+When neither the player's main- nor sub-job have native MP, they still gain MP from merits.  \
+This behaviour was also observed in **Monstrosity**, where monsters that should not have MP, instead had maximum MP exactly matching merit contribution for their level.  \
+Reducing merits in base stats (tested with **STR**) was also observed to reduce the matching stat while being a monster.
+
+|Merits        |  HP     |  MP   |  STR |
+|:------------:|:-------:|:-----:|:----:|
+| Full         |**15573**|**150**|**90**|
+| 13HP + 13MP  |**15517**|**130**|**90**|
+| 13MP + 14STR |**15573**|**130**|**89**|
+
 ## HP
 
 ### Best Guess at Formula
