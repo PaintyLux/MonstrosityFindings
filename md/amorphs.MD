@@ -1,4 +1,16 @@
 ## Amorphs:
+**Slime** Family:  
+&nbsp;&nbsp;[Slime](#slime) &#x2022; [Clot](#clot) &#x2022; [Gold Slime](#gold-slime) &#x2022; [Boil](#boil)  
+**Hecteyes** Family:  
+&nbsp;&nbsp;[Hecteyes](#hecteyes)  
+**Flan** Family:  
+&nbsp;&nbsp;[Flan](#flan) &#x2022; [Gold Flan](#gold-flan) &#x2022; [Blancmange](#blancmange)  
+**Leech** Family:  
+&nbsp;&nbsp;[Leech](#leech) &#x2022; [Azure Leech](#azure-leech) &#x2022; [Obdella](#obdella)  
+**Slug** Family:  
+&nbsp;&nbsp;[Slug](#slug)  
+**Sandworm** Family:  
+&nbsp;&nbsp;[Sandworm](#sandworm) &#x2022; [Pygmy Sandworm](#pygmy-sandworm) &#x2022; [Gigaworm](#gigaworm)  
 ### Slime Family:
 #### Slime
 - Size: **Small**

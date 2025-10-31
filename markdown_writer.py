@@ -10,14 +10,28 @@ def generate_order_markdown_file( monster_order_data, monster_data, order_name )
 
     with open( output_file_name, "w" ) as output:
         output.write(f"## {order_name}:\n")
+        order_data = monster_order_data[order_name]
 
-        for family_name in monster_order_data[order_name]:
+        for family_name in order_data:
+            print_table_of_contents( output, family_name, order_data[family_name] )
+
+        for family_name in order_data:
             output.write(f"### {family_name} Family:\n")
 
-            for species_name in monster_order_data[order_name][family_name]:
+            for species_name in order_data[family_name]:
                 print_species_data( output, monster_data, species_name )
 
             output.write("---\n")
+
+def print_table_of_contents( output, family_name, species_list ):
+    output.write(f"**{family_name}** Family:  \n&nbsp;&nbsp;")
+
+    for species_name in species_list[:-1]:
+        output.write(f"[{species_name}](#{species_name.lower().replace(" ", "-")}) &#x2022; ")
+
+    last_species_name = species_list[-1]
+    output.write(f"[{last_species_name}](#{last_species_name.lower().replace(" ", "-")})  \n")
+
 
 def print_species_data( output, monster_data, species_name ):
     species_data = monster_data[species_name]
