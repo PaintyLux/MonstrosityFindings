@@ -1,0 +1,221 @@
+---
+# Information obtained from https://www.bg-wiki.com/ffxi/Category:Monstrosity/Species and associated species pages.
+Amorphs:
+  Slime:
+    Slime:
+      unlock:
+        infamy: 3000
+      job_1: WAR
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Fluid Toss: 1
+        Fluid Spread: 10
+        Digest: 10
+    Clot:
+      unlock:
+        level:
+          Slime: 30
+      job_1: RDM
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Fluid Toss: 1
+        Fluid Spread: 10
+        Digest: 10
+        Mucus Spread: 20
+        Epoxy Spread: 30
+    Gold Slime:
+      unlock:
+        level:
+          Slime: 50
+      job_1: THF
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Fluid Toss: 1
+        Fluid Spread: 10
+        Digest: 10
+        Mucus Spread: 20
+        Epoxy Spread: 30
+    Boil:
+      unlock:
+        level:
+          Slime: 50
+        infamy: 25000
+      job_1: PLD
+      job_2: DRK
+      size: Large
+      monsterskills:
+        Fluid Toss: 1
+        Fluid Spread: 10
+        Mucus Spread: 20
+        Epoxy Spread: 30
+        Dissolve: 50
+        Cytokinesis: 50
+  Hecteyes:
+    Hecteyes:
+      unlock:
+        level:
+          Slime: 40
+      job_1: BLM
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Death Ray: 1
+        Hex Eye: 10
+        Petro Gaze: 20
+        Catharsis: 30
+  Flan:
+    Flan:
+      unlock:
+        level:
+          Hecteyes: 30
+      job_1: BLM
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Amplification: 1
+        Boiling Point: 10
+        Xenoglossia: 20
+        Amorphic Spikes: 30
+        Amorphic Scythe: 40
+    Gold Flan:
+      unlock:
+        level:
+          Flan: 30
+      job_1: WAR
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Amplification: 1
+        Boiling Point: 10
+        Xenoglossia: 20
+        Amorphic Spikes: 30
+        Amorphic Scythe: 40
+    Blancmange:
+      unlock:
+        level:
+          Flan: 60
+      job_1: WHM
+      job_2: PLD
+      size: Small
+      monsterskills:
+        Amplification: 1
+        Boiling Point: 10
+        Xenoglossia: 20
+        Amorphic Spikes: 30
+        Amorphic Scythe: 40
+        Gush o' Goo: 60
+  Leech:
+    Leech:
+      unlock:
+        infamy: 2000
+      job_1: WAR
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Suction: 1
+        Random Kiss: 10
+        Sand Breath: 20
+        Acid Mist: 30
+        Regeneration: 40
+        Drainkiss: 50
+        TP Drainkiss: 50
+        MP Drainkiss: 50
+        Brain Drain: 60
+        Absorbing Kiss: 70
+    Azure Leech:
+      unlock:
+        level:
+          Leech: 15
+      job_1: WAR
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Suction: 1
+        Random Kiss: 10
+        Sand Breath: 20
+        Acid Mist: 30
+        Regeneration: 40
+        Drainkiss: 50
+        TP Drainkiss: 50
+        MP Drainkiss: 50
+        Brain Drain: 60
+        Absorbing Kiss: 70
+    Obdella:
+      unlock:
+        level:
+          Leech: 50
+      job_1: DRK
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Suction: 1
+        Random Kiss: 10
+        Sand Breath: 20
+        Acid Mist: 30
+        Regeneration: 40
+        Drainkiss: 50
+        TP Drainkiss: 50
+        MP Drainkiss: 50
+        Brain Drain: 60
+        Absorbing Kiss: 70
+        Caliginosity: 70
+  Slug:
+    Slug:
+      unlock:
+        level:
+          Leech: 40
+      job_1: WAR
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Purulent Ooze: 1
+        Fuscous Ooze: 10
+        Corrosive Ooze: 20
+        Mucilaginous Ooze: 30
+  Sandworm:
+    Sandworm:
+      unlock:
+        level:
+          Leech: 70
+          Slug: 70
+      job_1: WAR
+      job_2: WAR
+      size: Large
+      monsterskills:
+        Dustvoid: 1
+        Slaverous Gale: 10
+        Aeolian Void: 20
+        Extreme Purgation: 30
+        Dessication: 75?
+    Pygmy Sandworm:
+      unlock:
+        level:
+          Sandworm: 1
+        infamy: 10000
+      job_1: WAR
+      job_2: WAR
+      size: Small
+      monsterskills:
+        Dustvoid: 1
+        Slaverous Gale: 10
+        Aeolian Void: 20
+        Extreme Purgation: 30
+        Dessication: 75?
+    Gigaworm:
+      unlock:
+        level:
+          Sandworm: 60
+        infamy: 25000
+      job_1: WAR
+      job_2: BLM
+      size: Large
+      monsterskills:
+        Dustvoid: 1
+        Slaverous Gale: 10
+        Aeolian Void: 20
+        Extreme Purgation: 30
+        Dessication: 75?
+        Psyche Suction: 90?
