@@ -2,6 +2,7 @@
 
 ## Merits affecting Monsters
 
+*Demonstrating using stats for lv78 Gnole:*
 |Merits        |  HP     |  MP   |  STR |
 |:------------:|:-------:|:-----:|:----:|
 | Full         |**15573**|**150**|**90**|

@@ -24,6 +24,7 @@
 
 | Merits     | Gnole   | Coeurl  | Lynx    | Collared Lynx | Smilodon |
 |:----------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Level      | 78      | 90      | 90      | 90      | 75      |
 |  13HP      |**15517**|**14865**|**14340**|**12739**|**11661**|
 |  15HP      |**15573**|**14913**|**14388**|**12785**|**11709**|
 | Difference |  **56** |  **48** |  **48** |  **46** |  **48** |
@@ -33,6 +34,7 @@
 
 ### HP% Boosts being exact percentages
 
+*Demonstrating using stats for lv78 Gnole:*
 | Base HP    | Galka I + Galka II |  Gnole II | ⌊Base HP * 1.04⌋ |
 |:----------:|:------------------:|:---------:|:---------------:|
 | **15517**  | **16137**          | **16137** | **16137**       |
@@ -43,6 +45,7 @@
 
 ### HP% Boost being a single term instead of multiplicative
 
+*Demonstrating using stats for lv78 Gnole:*
 |     |  0% |  2% |  4% |  8% | 10% | 15% | 20% |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Single Term| **15517** | **15827** | **16137** | **16758** | **17068** | **17844** | **18620** |

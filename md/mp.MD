@@ -41,6 +41,7 @@
 *Differences/contributions are calculated relative to max MP merits (15).*
 | Merits                            | Gnole   | Coeurl  | Lynx    | Collared Lynx | Smilodon |
 |:------------:                     |:-------:|:-------:|:-------:|:-------:|:-------:|
+| Level      | 78      | 90      | 90      | 90      | 75      |
 | 15 MP Merits                      | **150** | **150** | **1754**| **3437**| **150** |
 | 13 MP Merits                      | **130** | **130** | **1734**| **3417**| **130** |
 | Loss from Merits                  | **-20** | **-20** | **-20** | **-20** | **-20** |
