@@ -74,3 +74,46 @@ The resulting maximum HP aligned with the boosts being summed into one term befo
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |Single Term| **15517** | **15827** | **16137** | **16758** | **17068** | **17844** | **18620** |
 |All Multiplicative| **15517** | **15827** | **16143** | **16789** | **17127** | **17983** | **18893** |
+
+## MP
+
+### Best Guess at Formula
+
+Monster MP = ⌊ ((**Innate M** * **MON MP%**?) + **Trait HP** + **Merit MP** + **Instinct Flat MP Boosts**) * (Sum of **Instinct MP% Boosts**) ⌋
+
+### MON MP% Boost
+*Untested as of yet, currently not found a way to control for innate MP.*  \
+*Although monsters with "jobs" that don't have innate MP do only gain MP from merits and instincts.* \
+_**1754MP** and **3437MP** from the two coeurl subspecies seem excessively high compared to player values for **WAR**/**BLM** and **RDM**/**BLM**. It seems to imply some multiplier is present, but that does not affect MP from merits nor instincts._
+
+### Instinct MP Boosts
+**Instinct MP%** are exact percentages as written (not **x/1024** like Gear Haste is, etc.)  \
+**Instinct MP%** is applied after all flat bonuses are summed up.
+
+#### Reasoning
+
+[See here](/md/mp.MD#instincts) for supporting image evidence.
+
+**Exact percentages**:  \
+My Collared Lynx at the time of writing had enough MP where a difference of **1/1024** of its MP (**3**) would have been noticeable.
+
+| Base | Observed | ⌊Base * 1.02⌋ | ⌊Base * (1 + 19/1024)⌋ | ⌊Base * (1 + 20/1024)⌋ | ⌊Base * (1 + 21/1024)⌋ |
+|:------:|:------:|:------------:|:----------------------:|:---------------------:|:---------------------:|
+|**3437**|**3505**|**3505**      |3504                    |3507                   |3510                   |
+
+**Merit MP, Flat and Percentage Instinct Boosts**:  \
+**Merits** and **Instincts** that list a flat max MP provide the same bonus regardless of **MON** species/jobs.
+
+
+*Differences/contributions are calculated relative to max MP merits (15).*
+| Merits                            | Gnole   | Coeurl  | Lynx    | Collared Lynx | Smilodon |
+|:------------:                     |:-------:|:-------:|:-------:|:-------:|:-------:|
+| 15 MP Merits                      | **150** | **150** | **1754**| **3437**| **150** |
+| 13 MP Merits                      | **130** | **130** | **1734**| **3417**| **130** |
+| Loss from Merits                  | **-20** | **-20** | **-20** | **-20** | **-20** |
+| +100MP Instinct                   | **250** | **250** | **1854**| **3537**| **250** |
+| Flat Instinct Contribution        | **100** | **100** | **100** | **100** | **100** |
+| +2%MP Instinct                    | **153** | **153** | **1789**| **3505**| **153** |
+| %MP Instinct Contribution         | **3**   | **3**   | **35**  | **68**  | **3**   |
+| +100MP +2%MP Instincts            | **255** | **255** | **1891**| **3607**| **255** |
+| Combined Instinct Contribution    | **105** | **105** | **137** | **170** | **105** |
