@@ -34,6 +34,17 @@ The moon phase percentage updates only at midnight Vana'diel time, it does not c
 | Waning Crescent *(43%-14%)*| **463** | **490** | 27 (+35%) | **428** | **453** | 25 (+25%) |
 | New Moon | Not yet | Not yet | Not yet | Not yet | Not yet| Not yet |
 
+###### Better Approximation with x/1024 Species Bonus
+*The above observation obtained an approximation of the **Species Attack Bonus**, but there were one or two inconsistencies after gathering more data, and the additional fraction of a point of attack when adding `+20` Attack often was truncated with no visible impact.*  \
+*With the realization that the attack buffs were also based on a 1/1024 scale instead of exact percentages, the following values were obtained.*  \
+*As bipedal gnoles seem to use **Hand-to-Hand** formulae, they will likely benefit from the **Smite** trait. Currently testing whether or not the varying **Species Boost** is additive or multiplicative with **Smite**. This will likely assist with determining attack for other **MNK**-based monsters.*
+
+| Stance|🌑|🌒|🌓|🌔|🌕|
+|:--------:|:-------:|:-------:|:-------:|:-------:|:-------:|
+| Quadrupedal |`+295/1024`|`+356/1024`|`+416/1024`|`+476/1024`|`+536/1024`|
+| Approx. (Quad) | `+29%` | `+35%` | `+40%` | `+46%` | `+52%` |
+
+
 #### Accuracy varies with moon phase
 *Not tested yet.* \
 `/checkparam <me>` *does not function when targeting **MON** players.*
