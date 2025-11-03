@@ -39,10 +39,22 @@ The moon phase percentage updates only at midnight Vana'diel time, it does not c
 *With the realization that the attack buffs were also based on a 1/1024 scale instead of exact percentages, the following values were obtained.*  \
 *As bipedal gnoles seem to use **Hand-to-Hand** formulae, they will likely benefit from the **Smite** trait. Currently testing whether or not the varying **Species Boost** is additive or multiplicative with **Smite**. This will likely assist with determining attack for other **MNK**-based monsters.*
 
+The boost from the **Smite** trait seems to be additive with the **Species Bonus**, as there is an additional `52/1024` loss in the attack term between level 60 (via **Belligerency**) and 80 (obtaining **Smite II**).  \
+There is unfortunately another `8/1024` loss in attack for both forms (totalling to a `60/1024` loss in attack in bipedal form) between level 60 and 80 that remains unaccounted for. \
+*Tracking these down is going to be a NIGHTMARE.*
+
+*For some reason there have also been some very slight variations (`+-1/1024`) but tracking those down is going to take time. Maybe moon phase stuff? egh*
+
 | Stance|🌑|🌒|🌓|🌔|🌕|
 |:--------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| Quadrupedal |`+295/1024`|`+356/1024`|`+416/1024`|`+476/1024`|`+536/1024`|
-| Approx. (Quad) | `+29%` | `+35%` | `+40%` | `+46%` | `+52%` |
+| Quadrupedal LV80 |`+296/1024`|`+356/1024`|`+416/1024`|`+476/1024`|`+536/1024`|
+| Quadrupedal LV60 |🌑|🌒|🌓|`+468/1024`|`+528/1024`|
+| Quadrupedal LV30 |🌑|🌒|🌓|🌔|`+528/1024`|
+| Approximation | `+29%` | `+35%` | `+40%` | `+46%` | `+52%` |
+| Biped (**Smite I** `+100/1024`) |🌑|🌒|🌓|🌔| `+424/1024` |
+| Approximation |🌑|🌒|🌓|🌔| `+41%` |
+| Biped (**Smite II** `+152/1024`) |🌑|🌒|🌓|🌔| `+484/1024` |
+| Approximation |🌑|🌒|🌓|🌔| `+47%` |
 
 
 #### Accuracy varies with moon phase
@@ -66,4 +78,5 @@ The moon phase percentage updates only at midnight Vana'diel time, it does not c
 *Not tested yet.*
 #### Gain Auto-Regen during night time
 *Confirmed, have not tested if potencies depend on moon phase.*  \
-*Observed +20HP/tick during full moon.*
+*Observed +20HP/tick during full moon.* \
+*Observed +10HP/tick during gibbous moon.*
