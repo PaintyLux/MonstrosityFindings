@@ -22,7 +22,7 @@ Additionally, they have two stances: four-legged (default for **MON**), and two-
 *The fact that Biped attack multiplier didn't decrease between full moon and waning gibbous, but there was still a notable attack drop implies the existence of the previously mentioned flat attack boost.*
 
 ###### Observed Attack Values
-*Observations were made with zero instincts equipped, and instincts totalling to a flat value of +20ATK.* \
+*Observations were made with a LV78 Gnole that had zero instincts equipped, and instincts totalling to a flat value of +20ATK.* \
 The moon phase percentage updates only at midnight Vana'diel time, it does not change in the middle of a day. \
 *Numeric ranges in the Moon Phase column were reported by the `/clock on` command.*
 
@@ -47,14 +47,12 @@ There is unfortunately another `8/1024` loss in attack for both forms (totalling
 
 | Stance|🌑|🌒|🌓|🌔|🌕|
 |:--------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| Quadrupedal LV80 |`+296/1024`|`+356/1024`|`+416/1024`|`+476/1024`|`+536/1024`|
-| Quadrupedal LV60 |🌑|🌒|🌓|`+468/1024`|`+528/1024`|
-| Quadrupedal LV30 |🌑|🌒|🌓|🌔|`+528/1024`|
-| Approximation | `+29%` | `+35%` | `+40%` | `+46%` | `+52%` |
-| Biped (**Smite I** `+100/1024`) |🌑|🌒|🌓|🌔| `+424/1024` |
-| Approximation |🌑|🌒|🌓|🌔| `+41%` |
-| Biped (**Smite II** `+152/1024`) |🌑|🌒|🌓|🌔| `+484/1024` |
-| Approximation |🌑|🌒|🌓|🌔| `+47%` |
+| Quadruped Stance `LV80` |`+296/1024`|`+356/1024`|`+416/1024`|`+476/1024`|`+536/1024`|
+| Quadruped Stance `LV60` |🌑|🌒|🌓|`+468/1024`|`+528/1024`|
+| Quadruped Stance `LV30` |🌑|🌒|🌓|🌔|`+528/1024`|
+| Biped Stance `LV80` |🌑|🌒|🌓|🌔| `+484/1024` |
+| Biped Stance `LV60` |🌑|🌒|🌓|🌔| `+424/1024` |
+| Biped Stance `LV30` |🌑|🌒|🌓|🌔| `+324/1024` |
 
 
 #### Accuracy varies with moon phase
