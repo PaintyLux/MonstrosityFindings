@@ -24,7 +24,13 @@ Reducing merits in base stats (tested with **STR**) was also observed to reduce 
 
 ### Best Guess at Formula
 
-Monster HP = ⌊ (**Innate HP** + **Trait HP** + **Merit HP**) * **MON HP%** * (Sum of **Instinct HP% Boosts**) ⌋
+$`
+monsterHP = \lfloor (Innate HP + Flat HP Bonus) \cdot Species Boost _{HP} \cdot \sum Instinct HP_{\%} \rfloor
+`$
+
+$`
+Flat HP Bonus = \lfloor Trait HP + Merit HP \rfloor
+`$
 
 ### MON Species HP% Boosts
 
@@ -79,7 +85,13 @@ The resulting maximum HP aligned with the boosts being summed into one term befo
 
 ### Best Guess at Formula
 
-Monster MP = ⌊ ((**Innate M** * **MON MP%**?) + **Trait HP** + **Merit MP** + **Instinct Flat MP Boosts**) * (Sum of **Instinct MP% Boosts**) ⌋
+$`
+Monster MP = \lfloor ((Innate MP * Species Boost_{MP}) + Flat MP Bonus) \cdot \sum Instinct MP_{\%} \rfloor
+`$
+
+$`
+Flat MP Bonus = \lfloor Trait MP + Merit MP + \sum Instinct MP_{Flat} \rfloor
+`$
 
 ### MON MP% Boost
 *Untested as of yet, currently not found a way to control for innate MP.*  \

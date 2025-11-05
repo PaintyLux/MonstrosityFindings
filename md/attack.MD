@@ -7,12 +7,13 @@
 
 ---
 
-`Attack` = 
-⌊`Base Attack` × `(1 + Species Bonus)` × `(1 + Instinct Attack% Bonus Total)`⌋
+$`
+Attack = \lfloor Base ATK \cdot (1 + Species Boost_{ATK}) \cdot (1 + \sum Instinct ATK_{\%}) \rfloor
+`$
 
-Where: \
-`Base Attack` is equal to:  \
-(`8` + `Combat Skill` + ⌊`STR/2`⌋ + `Attack Bonus Trait` + `Instinct Flat Attack Bonus`)
+$`
+Base ATK = 8 + CombatSkill_{A+} + \lfloor \frac{STR}{2} \rfloor + \sum InstinctATK_{Flat}
+`$
 
 ---
 
