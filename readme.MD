@@ -6,6 +6,7 @@ Information is gathered from multiple sources:
 - [BG-Wiki](https://www.bg-wiki.com/ffxi/Category:Monstrosity)
 - [FFXIclopedia](https://ffxiclopedia.fandom.com/wiki/Category:Monstrosity)
 - The [LandSandBoat Project](https://github.com/LandSandBoat/server)
+- [Jimmayus' Monster Stat Spreadsheet](https://docs.google.com/spreadsheets/d/1YBoveP-weMdidrirY-vPDzHyxbEI2ryECINlfCnFkLI)
 - [Operation Bluffalo](https://docs.google.com/spreadsheets/d/1i-Z4A4GLfhvKg_3QFQDA9WZ-M8Gb-g1v_KyHNa24G7s/edit?gid=228593342#gid=228593342)
 - In-game via plain elbow grease
     - [messier google sheet scratchpad for number crunching](https://docs.google.com/spreadsheets/d/1U0dBUXZXej28SvlB05UOqDFq8slSGWhyG37EAfupS9Q/edit?usp=sharing)
