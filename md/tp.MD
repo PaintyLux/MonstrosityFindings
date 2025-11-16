@@ -7,6 +7,7 @@ Incoming player damage seems to provide **TP** based on **Delay**. \
 
 | Action | TP Gained |
 |:------:|:---------:|
+| Melee Attack Hit (Ram vs Monster) | `+95`/hit |
 | Melee Attack Hit (vs Monster) | `+75`/hit |
 | Melee Attack Hit (H2H) (vs Monster) | `+61`/hit|
 | Taking Melee Hit (Monster) | `+21`/hit |
