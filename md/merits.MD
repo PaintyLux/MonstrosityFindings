@@ -32,3 +32,14 @@ Gnole stats with 13 HP merits and 13 MP merits.
 
 Gnole stats with 14 STR merits and 13 MP merits.  
 </details>
+
+## Job Ability Merits
+
+If a player has merits allocated for job abilities, monsters with the same internal jobs are able to benefit from (at least a selection of) them.
+
+<details>
+<summary>Screenshot of Level 80 Gnole with MNK merit job abilities available</summary>
+<img src="../img/job_abilities_gnole.jpg" title = "Gnole Job Abilities with Mantra and Formless Strikes usable">
+</details>
+
+### Job merits affecting MON players
